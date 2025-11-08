@@ -1,6 +1,8 @@
 langchain_community
+langchain_openai
 streamlit
 langchain
 openai
 chromadb
 tiktoken
+
