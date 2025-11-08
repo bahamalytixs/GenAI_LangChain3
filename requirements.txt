@@ -3,9 +3,11 @@ langchain-openai
 langchain-text-splitters
 streamlit
 langchain
+langchain-chroma
 langchain-core
 langchain-openai
 openai
 chromadb
 tiktoken
 python-dotenv
+
