@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_openai import OpenAI
 from langchain_text_splitters import CharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 
@@ -52,6 +52,7 @@ with st.form('myform', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
 
 
 
