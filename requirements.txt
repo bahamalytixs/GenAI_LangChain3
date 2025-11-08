@@ -6,8 +6,9 @@ langchain-chroma==0.1.16
 langchain-text-splitters==0.1.16
 openai
 python-dotenv
-chromadb
-tiktoken
+#chromadb
+#tiktoken
+
 
 
 
