@@ -1,11 +1,11 @@
-langchain_community
-langchain_openai
-langchain_text_splitters
+langchain-community
+langchain-openai
+langchain-text-splitters
 streamlit
 langchain
+langchain-core
+langchain-openai
 openai
 chromadb
 tiktoken
-
-
-
+python-dotenv
