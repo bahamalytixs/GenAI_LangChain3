@@ -1,9 +1,17 @@
 import streamlit as st
 from langchain_openai import OpenAI
-from langchain.text_splitter import CharacterTextSplitter
+from langchain.text_splitters import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
+
+#import streamlit as st
+#from langchain_openai import OpenAI
+#from langchain_text_splitters import CharacterTextSplitter
+#from langchain.docstore.document import Document
+#from langchain.chains import LLMChain
+#from langchain.prompts import PromptTemplate
+
 
 def generate_response(uploaded_file, openai_api_key, query_text):
     # Load document if file is uploaded
@@ -44,4 +52,5 @@ with st.form('myform', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
 
