@@ -2,7 +2,7 @@ langchain-community
 langchain-openai
 langchain-text-splitters
 streamlit
-langchain>=0.2.0
+langchain==0.1.16
 langchain-chroma
 langchain-core
 langchain-openai
@@ -10,6 +10,7 @@ openai
 chromadb
 tiktoken
 python-dotenv
+
 
 
 
