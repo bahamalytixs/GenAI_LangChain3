@@ -1,15 +1,14 @@
-langchain-community
-langchain-openai
-langchain-text-splitters
 streamlit
 langchain==0.1.16
-langchain-chroma
-langchain-core
-langchain-openai
+langchain-core==0.1.16
+langchain-openai==0.1.16
+langchain-chroma==0.1.16
+langchain-text-splitters==0.1.16
 openai
+python-dotenv
 chromadb
 tiktoken
-python-dotenv
+
 
 
 
